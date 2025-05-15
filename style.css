@@ -1,12 +1,16 @@
 :root{
     --branco-normar: #ffffff;
     --botao-amarelo: #FFFF00;
-    --cor-fundo: #000000
+    --cor-fundo: #000000;
 }
 
 body{
 background-color: var(--cor-fundo);
-color: var(--branco-normar)
+color: var(--branco-normar);
+}
+
+p{
+    font-size: 10px;
 }
 
 h1{
@@ -15,4 +19,16 @@ h1{
 
 strong{
     color: var(--botao-amarelo);
+}
+
+button{
+    background-color: var(--botao-amarelo);
+}
+
+.principal {
+    display: flex;
+}
+
+.dois {
+    display: flex;
 }
