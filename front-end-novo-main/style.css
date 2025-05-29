@@ -1,0 +1,43 @@
+:root{
+    --branco-normar: #ffffff;
+    --botao-amarelo: #FFFF00;
+    --cor-fundo: #000000;
+}
+
+body{
+background-color: var(--cor-fundo);
+color: var(--branco-normar);
+}
+
+p{
+    font-size: 10px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.botao{
+   width: 140px;
+   height: 50px; 
+   background-color: var(--botao-amarelo);
+   font-size: 35px;
+   text-decoration: dashed;
+}
+
+strong{
+    color: var(--botao-amarelo);
+}
+
+button{
+    background-color: var(--botao-amarelo);
+}
+
+.principal {
+    display: flex;
+}
+
+.dois {
+    display: flex;
+}
+
