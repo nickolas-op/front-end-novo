@@ -7,6 +7,9 @@
 body{
 background-color: var(--cor-fundo);
 color: var(--branco-normar);
+background-image: url(img/placio.jpeg);
+background-repeat: no-repeat;
+background-size: 600px 250px;
 }
 
 p{
