@@ -7,6 +7,9 @@
 body{
 background-color: var(--cor-fundo);
 color: var(--branco-normar);
+background-image: url(img/TATU.png);
+background-repeat: no-repeat;
+background-size: 600px 250px;
 }
 
 p{
@@ -40,10 +43,18 @@ button{
 }
 
 .principal {
-    display: flex;
+    display: block;
 }
 
 .dois {
     display: flex;
+    margin-top: 150px;
 }
 
+.quatro{
+    display: flex;
+}
+
+h3{
+    margin-right: 150px;
+}
